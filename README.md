@@ -2,7 +2,7 @@
 
 Subtraktor is a lightweight, browser-based, offline utility designed specifically for the **Elektron Tonverk** hardware platform. It streamlines the creation, curation, and optimization of custom drum kits mapped to the Tonverk’s native **Subtrack** machine type.
 
-By handling file resampling, metadata mapping, and visual trimmer cropping completely client-side, Subtraktor ensures your custom sounds are fully optimized and ready to run on the Tonverk hardware. [Start Here.](https://grandsummoner.github.io/subtraktor/Subtraktor.html)
+By handling file resampling, metadata mapping, and visual trimmer cropping completely client-side, Subtraktor ensures your custom sounds are fully optimized and ready to run on the Tonverk hardware. [Start Here.](https://grandsummoner.github.io/subtraktor/Dualwave-synthesizer.html)
 
 ---
 
