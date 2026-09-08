@@ -59,16 +59,3 @@ An expressive motion synthesizer and continuous lead instrument playable with a 
 4. Move, tilt, and play!
 
 ---
-
-## 🚀 Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/Grandsummoner/dualwave.git
-cd dualwave
-
-# Install dependencies
-npm install
-
-# Start local development server
-npm run dev
