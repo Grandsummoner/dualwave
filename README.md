@@ -6,7 +6,7 @@ An expressive motion synthesizer and continuous lead instrument playable with a 
 
 ## 🌟 Live Demo
 
-👉 **[https://grandsummoner.github.io/dualwave/](https://grandsummoner.github.io/dualwave/Dualwave-synthesizer.html)**
+👉 **[Play now.](https://grandsummoner.github.io/dualwave/Dualwave-synthesizer.html)**
 
 > **Browser Requirement for DualSense Controller:** Use Google Chrome, Microsoft Edge, or any Chromium-based desktop browser for full **WebHID** gyro motion and touch-pad support over HTTPS.
 
