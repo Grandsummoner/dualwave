@@ -14,11 +14,12 @@ An expressive motion synthesizer and continuous lead instrument playable with a 
 
 ## 🎹 Features
 
-- **PS5 DualSense Motion Control:**
+- **PS5 DualSense Motion & Touch Control:**
+  - **DualSense Touchpad:** Plays the ribbon directly (X: Pitch along scale, Y: Volume & Dynamics).
+  - **Analog Sticks (Effects Knobs):** Left stick sculpts stereo delay (Time & Mix); right stick sweeps filter cutoff and reverb mix.
   - **Gyro & Accelerometer:** Pitch and tilt the controller to glide pitch and control vibrato like a digital Theremin.
   - **Analog Triggers (L2/R2):** Smooth volume and dynamics control with adaptive trigger resistance.
   - **Haptic & Lightbar Feedback:** Real-time LED colors match current pitch and musical root.
-  - **DualSense Touchpad:** Multi-touch X/Y filter sweeps (Cutoff & Resonance).
 - **Virtual Touch Ribbon:** Full continuous pitch surface with microtonal readout, scale snapping, and glide options.
 - **Rich Synthesizer Engine:**
   - Multi-waveform oscillator (Sine, Triangle, Sawtooth, Square).
@@ -34,14 +35,14 @@ An expressive motion synthesizer and continuous lead instrument playable with a 
 
 | Input | Action |
 | :--- | :--- |
-| **Tilt / Gyro** | Pitch gliding and vibrato (Motion Mode) |
-| **R2 Trigger** | Dynamic note trigger & continuous volume swell |
-| **Left Stick (X)** | Scale step selection (Left = lower notes, Right = higher notes) |
-| **Left Stick (Y)** | Micro-pitch bend (±2 semitones) |
-| **Right Stick (X)** | Filter Cutoff sweep |
-| **Right Stick (Y)** | Volume / Dynamics swell |
-| **Touchpad Drag** | 2D Filter modulation (X: Cutoff, Y: Resonance) |
+| **Touchpad Drag** | **Play Ribbon** (X: Pitch along scale, Y: Volume / Dynamics) |
 | **Touchpad Click** | Quick Mute / Unmute toggle |
+| **Left Stick (X)** | Delay Time (0.05s to 0.8s) |
+| **Left Stick (Y)** | Delay Mix (Dry/Wet) |
+| **Right Stick (X)** | Filter Cutoff sweep (100Hz to 12kHz) |
+| **Right Stick (Y)** | Reverb Mix (Dry/Wet) |
+| **R2 Trigger** | Dynamic note trigger & continuous volume swell |
+| **Tilt / Gyro** | Pitch gliding and vibrato (Motion Mode) |
 | **Cross (✕)** | Instant note trigger / gate |
 | **Square (□)** | Toggle Quantize / Free Pitch glide |
 | **Triangle (△)** | Cycle Musical Scales (Major, Minor, Blues, etc.) |
@@ -56,6 +57,9 @@ An expressive motion synthesizer and continuous lead instrument playable with a 
    - **Bluetooth:** Hold the `Create/Share` button and the `PS` button simultaneously until the lightbar double-blinks, then pair it in your operating system's Bluetooth settings.
 2. In the app, click **"Connect Controller"**.
 3. Select **"Wireless Controller"** from the browser's device picker.
-4. Move, tilt, and play!
+4. Touch the pad, move the sticks, and play!
 
 ---
+
+# Start local development server
+npm run dev
